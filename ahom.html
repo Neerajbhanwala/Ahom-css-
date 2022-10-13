@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Ahom Technologies</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Ahom.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script>
+  function first(obj) {
+    $("#icon1").animate({
+      "margin-top": "0px",
+      "height": "190px",
+      "width": "190px"
+    }, 500);
+    $("#icon2").animate({
+      "margin-top": "150px",
+      "height": "150px",
+      "width": "150px"
+    });
+    $("#icon3").animate({
+      "margin-top": "150px",
+      "height": "150px",
+      "width": "150px"
+    });
+    $("#bg1").animate({
+      "margin-top": "-80px"
+    }, 100);
+    $(obj).animate({
+      "margin-top": "0px"
+    }, 400).css({
+      "background-color": "white"
+    });
+    $("#two").animate({
+      "margin-top": "110px"
+    }, 200).css({
+      "background-color": "#d2eaff"
+    });
+    $("#three").animate({
+      "margin-top": "110px"
+    }, 200);
+    $("#bg1").slideDown(500)
+    $("#bg2").slideUp(500);
+    $("#bg3").slideUp(500);
+  }
+
+  function second(obj) {
+    $("#icon2").animate({
+      "margin-top": "0px",
+      "height": "190px",
+      "width": "190px"
+    }, 500);
+    $("#icon1").animate({
+      "margin-top": "150px",
+      "height": "150px",
+      "width": "150px"
+    });
+    $("#icon3").animate({
+      "margin-top": "150px",
+      "height": "150px",
+      "width": "150px"
+    });
+    $("#bg2").animate({
+      "margin-top": "-80px"
+    }, 100);
+    $(obj).animate({
+      "margin-top": "0px"
+    }, 400).css({
+      "background-color": "white"
+    });
+    $("#one").animate({
+      "margin-top": "110px"
+    }, 200).css({
+      "background-color": "#d2eaff"
+    });
+    $("#three").animate({
+      "margin-top": "110px"
+    }, 200).css({
+      "background-color": "#d2eaff"
+    });
+    $("#bg2").slideDown(500);
+    $("#bg1").slideUp(500);
+    $("#bg3").slideUp(500);
+  }
+
+  function third(obj) {
+    $("#icon3").animate({
+      "margin-top": "0px",
+      "height": "190px",
+      "width": "190px"
+    }, 500);
+    $("#icon2").animate({
+      "margin-top": "150px",
+      "height": "150px",
+      "width": "150px"
+    });
+    $("#icon1").animate({
+      "margin-top": "150px",
+      "height": "150px",
+      "width": "150px"
+    });
+    $("#bg3").animate({
+      "margin-top": "-80px"
+    }, 100);
+    $(obj).animate({
+      "margin-top": "0px"
+    }, 400).css({
+      "background-color": "white"
+    });
+    $("#two").animate({
+      "margin-top": "110px"
+    }, 200).css({
+      "background-color": "#d2eaff"
+    });
+    $("#one").animate({
+      "margin-top": "110px"
+    }, 200).css({
+      "background-color": "#d2eaff"
+    });
+    $("#bg3").slideDown(500);
+    $("#bg2").slideUp(500);
+    $("#bg1").slideUp(500);
+  }
+	</script>
+
+</head>
+
+<body>
+
+<div class="frm"></div>
+<ul>
+  <li>BLOG</li>
+  <li>CONTACT US</li>
+  <li>CAREER</li>
+  <li>OUR PORTFOLIO</li>
+  <li>OUR SERVICES</li>
+  <li>ABOUT US</li>
+  <span style="">
+    <img src="ahom logo.png">
+  </span>
+</ul>
+<div class="sm4">Transform <br>with AHOM </div>
+<button class="sm6">Contact Us</button>
+<div class="sm5">Lean into the age of discruptive modernism with AHOM Technologies.</div>
+<div class="sm1">
+  <img src="sm1.png">
+</div>
+<div class="sm2">
+  <img src="sm2.png">
+</div>
+<div class="sm3">
+  <img src="sm3.png">
+</div>
+
+<!-- Second Division -->
+
+
+<div class="maindiv">
+  <div class="bg1" id="bg1"></div>
+  <div class="bg2" id="bg2"></div>
+  <div class="bg3" id="bg3"></div>
+  <div class="inicon1" id="icon1">
+    <img src="Dashboard_perspective_matte_s.png" style="height:100%; width:100%;">
+  </div>
+  <div class="inicon2" id="icon2">
+    <img src="message_perspective_matte_s.png" style="height:100%; width:100%;">
+  </div>
+  <div class="inicon3" id="icon3">
+    <img src="ROCKET_perspective_matte_s.png" style="height:100%; width:100%;">
+  </div>
+  <div class="first" onmouseenter="first(this)" id="one">
+    <h2>WEB DEVELOPMENT</h2>
+    <H4>Ahomtech is a leading Web development company based out in Gurugram, India. Over the past years, we have offered all kind of custom build websites, web portals and web applications. We use cutting edge technologies to transform the ideas into reality.</H4>
+    <button class="btnn">READ MORE</button>
+  </div>
+  <div class="first" onmouseenter="second(this)" id="two">
+    <h2>GRAPHIC DESIGN</h2>
+    <h4>Graphics designing has now become a mendatory aspect or a way of projecting ideas with the help of visual and content. It includes conveying the complexity of a vision through visual simplicity.</h4>
+    <button class="btnn">READ MORE</button>
+  </div>
+  <div class="first" onmouseenter="third(this)" id="three">
+    <h2>SEO OPTIMIZATION</h2>
+    <h4>The best way to get your website noticed by potential customers,SEO brings the business at amazing heights since it unables us to work across the globe just by investing a bit of investment.</h4>
+    <button class="btnn">READ MORE</button>
+  </div>
+</div>
+
+	<!-- Third division -->
+	
+	
+<div class="smll">
+  <img src="right_top_02.png">
+</div>
+<div class="last">
+  <img src="welcome_img.png">
+</div>
+<div class="last">
+  <h1 class="h">WELCOME TO <mark>AHOM</mark> TECHNOLOGIES </h1>
+  <p>AHOM Technologies private limited is a specilized IT solution company based out at Gurgaon, India. We provide high quality professional software services to the clients residing across the globe. Out experts have been working with the clients of India as well as from International origin including USA, UK and Australia.</p>
+  <button class="btn">READ MORE</button>
+  
+  </body>
+  </html>
